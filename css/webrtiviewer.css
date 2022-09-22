@@ -1,26 +1,19 @@
-	*{
+	#rti-viewer * {
 		-webkit-user-select: none;
 		-khtml-user-select: none;
 		-moz-user-select: -moz-none;
 		-o-user-select: none;
 		outline: none;
 	}
-
-	body
-	{
-		margin: 4px;
-		overflow: hidden;
-		/*height: 100%;*/
-	}
 	
-	.toolbarButton, .toolbarButton2
+	#rti-viewer .toolbarButton, #rti-viewer .toolbarButton2
 	{
 		margin-bottom: 10px !important;
 		background: rgba(0, 0, 0, 0.0) !important;
 		border: 0px !important;
 	}
 	
-	.toolbarIcon
+	#rti-viewer .toolbarIcon
 	{
 		width: 100%;
 		height: 100%;
@@ -29,52 +22,54 @@
 		top: 0px !important;
 		margin: 0px !important;
 		opacity: 0.85;
+		display: inline-block;
+		background-repeat: no-repeat;
 	}
 	
-	.zoomInIcon
+	#rti-viewer .zoomInIcon
 	{
 		background-image: url(icons/zoomin.png) !important;
 		
 	}
 
-	.zoomOutIcon
+	#rti-viewer .zoomOutIcon
 	{
 		background-image: url(icons/zoomout.png) !important;
 	}
 	
-	.lightIcon
+	#rti-viewer .lightIcon
 	{
 		background-image: url(icons/light.png) !important;
 	}
 	
-	.lightOnIcon
+	#rti-viewer .lightOnIcon
 	{
 		background-image: url(icons/light_on.png) !important;
 	}
 	
-	.helpIcon
+	#rti-viewer .helpIcon
 	{
 		background-image: url(icons/help.png) !important;
 	}
 	
-	.fullIcon
+	#rti-viewer .fullIcon
 	{
 		background-image: url(icons/full.png) !important;
 	}
 	
-	.fullOnIcon
+	#rti-viewer .fullOnIcon
 	{
 		background-image: url(icons/full_on.png) !important;
 	}
 	
 	
-	.ui-state-hover .toolbarIcon
+	#rti-viewer .ui-state-hover .toolbarIcon
 	{
 		opacity: 1.0;
 	}
 	
 	
-	#guideTable
+	#rti-viewer #guideTable
 	{
 		display:table;
 		width: 100%;
@@ -83,7 +78,7 @@
 		font-family: Verdana,sans-serif;
 	}
 	
-	#guideCell
+	#rti-viewer #guideCell
 	{
 		display: table-cell;
 		width: 100%;
@@ -91,24 +86,24 @@
 		text-align: left;
 	}
 	
-	#guideList
+	#rti-viewer #guideList
 	{
 		width: 90%;
 		margin: auto;
 	}
 	
-	#guideList li
+	#rti-viewer #guideList li
 	{
 		margin-bottom: 5px;
 	}
 		
-	#guideList span
+	#rti-viewer #guideList span
 	{
 		width: 30px;
 		height: 30px;
 	}
 	
-	#guideList img
+	#rti-viewer #guideList img
 	{
 		width: 30px;
 	}

@@ -156,7 +156,7 @@ function sglLoadFile(url, callback) {
 		};
 	}
 
-	req.open("GET", url, async);
+	req.open("GET", "/apps/rti-viewer/" + url, async);
 	req.send(null);
 
 	var ret = null;
